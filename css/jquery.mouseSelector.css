@@ -1,0 +1,23 @@
+
+.container{
+    position: relative;
+}
+
+.mouse-selector{
+    position: absolute;
+    background-image: url("images/selector.png");
+    /*background-color: red;*/
+    background-repeat: repeat;
+    display: none;
+}
+
+.ms-clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0px;
+    content: "."
+}
+.default-selected-css{
+    background-color: red;
+}
