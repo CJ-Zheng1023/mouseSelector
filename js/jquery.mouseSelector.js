@@ -184,15 +184,3 @@
 
 
 })(jQuery);
-
-
-$(function(){
-    $("#container").mouseSelector({
-        targets:{
-            name:"data-mouse-selector-target",
-            value:"target"
-        }
-    })
-
-
-})
