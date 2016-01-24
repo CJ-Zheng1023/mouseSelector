@@ -124,7 +124,7 @@
                 //_reset();
             }
         })
-        $(this).find(expr).click(function(e){
+        container.find(expr).click(function(e){
             if($(this).hasClass(selectedCssName)){
                 $(this).removeClass(selectedCssName)
             }else{
