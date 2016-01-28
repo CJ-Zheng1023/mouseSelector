@@ -33,7 +33,7 @@
      *
      * @private  初始化拖选框
      *
-     * @author zhengchj
+     * @author AfterWin
      * @mail CJ_Zheng1023@hotmail.com
      */
     function _initSelector(){
@@ -69,7 +69,7 @@
      * @param options 配置参数
      * @private 初始化绑定事件
      *
-     * @author zhengchj
+     * @author AfterWin
      * @mail CJ_Zheng1023@hotmail.com
      */
     function _initEvent(options){
@@ -142,7 +142,7 @@
      * @param selectorHeight 拖选框高度
      * @private 判断拖选框是否扫过被选元素
      *
-     * @author zhengchj
+     * @author AfterWin
      * @mail CJ_Zheng1023@hotmail.com
      */
     function _ifSelect(selectorLeft,selectorTop,selectorWidth,selectorHeight){
@@ -160,7 +160,7 @@
      *
      * @private 复原标识位
      *
-     * @author zhengchj
+     * @author AfterWin
      * @mail CJ_Zheng1023@hotmail.com
      */
     function _reset(){
